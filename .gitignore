@@ -1,0 +1,35 @@
+# ── 密钥（最高优先级，绝对不许进仓库）──
+.env
+.env.*
+!.env.example
+*.key
+
+# ── Python ──
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ── 编辑器 / 系统 ──
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ── 本地向量库 / 缓存（跑示例会生成，体积大且每次不同）──
+chroma_db/
+chroma_bge/
+*.sqlite3
+.cache/
+
+# ── 模型权重（几个 GB，永远不要进 git）──
+*.bin
+*.safetensors
+*.onnx
+*.h5
+
+# ── 备份文件 ──
+*.bak
+*~
