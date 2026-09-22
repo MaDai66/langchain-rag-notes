@@ -15,7 +15,7 @@
 | 章 | 主题 | 关键词 |
 |---|---|---|
 | [01](01-接入模型.md) | 接入模型 | `ChatOpenAI`、`base_url`、`load_dotenv` |
-| 02 | 模型与消息 | `SystemMessage` / `HumanMessage` / `AIMessage` |
+| [02](02-模型与消息.md) | 模型与消息 | `BaseChatModel`、`SystemMessage` / `HumanMessage` / `AIMessage` |
 | 03 | 提示词模板 | `ChatPromptTemplate`、`MessagesPlaceholder` |
 | 04 | 示例选择器 | `SemanticSimilarityExampleSelector` |
 | 05 | 输出解析器 | `PydanticOutputParser`、`OutputFixingParser` |
@@ -28,7 +28,7 @@
 | 12 | 检索器 | Hybrid Search、Reranker |
 | 13 | 工具 | `@tool`、Agent |
 
-> 进度：01–12 已整理，13 待补。
+> **带链接的是已发布的，其余陆续更新中。**
 
 ## 环境
 
