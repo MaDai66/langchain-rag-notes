@@ -17,7 +17,7 @@
 | [01](01-接入模型.md) | 接入模型 | `ChatOpenAI`、`base_url`、`load_dotenv` |
 | [02](02-模型与消息.md) | 模型与消息 | `BaseChatModel`、`SystemMessage` / `HumanMessage` / `AIMessage` |
 | [03](03-提示词模板.md) | 提示词模板 | `ChatPromptTemplate`、`MessagesPlaceholder`、FewShot、`partial` |
-| 04 | 示例选择器 | `SemanticSimilarityExampleSelector` |
+| [04](04-示例选择器.md) | 示例选择器 | `LengthBasedExampleSelector`、MMR、多样性惩罚 |
 | 05 | 输出解析器 | `PydanticOutputParser`、`OutputFixingParser` |
 | 06 | LCEL | `RunnableSequence`、`RunnableParallel` |
 | 07 | 记忆 | `RunnableWithMessageHistory` |
