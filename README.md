@@ -16,7 +16,7 @@
 |---|---|---|
 | [01](01-接入模型.md) | 接入模型 | `ChatOpenAI`、`base_url`、`load_dotenv` |
 | [02](02-模型与消息.md) | 模型与消息 | `BaseChatModel`、`SystemMessage` / `HumanMessage` / `AIMessage` |
-| 03 | 提示词模板 | `ChatPromptTemplate`、`MessagesPlaceholder` |
+| [03](03-提示词模板.md) | 提示词模板 | `ChatPromptTemplate`、`MessagesPlaceholder`、FewShot、`partial` |
 | 04 | 示例选择器 | `SemanticSimilarityExampleSelector` |
 | 05 | 输出解析器 | `PydanticOutputParser`、`OutputFixingParser` |
 | 06 | LCEL | `RunnableSequence`、`RunnableParallel` |
