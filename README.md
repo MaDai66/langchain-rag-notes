@@ -25,7 +25,7 @@
 | [05](05-输出解析器.md) | 输出解析器 | `PydanticOutputParser`、`format_instructions`、`OutputFixingParser` |
 | [06](06-LCEL.md) | LCEL | `RunnableSequence`、`RunnableParallel`、`RunnablePassthrough` |
 | [07](07-记忆.md) | 记忆 | `RunnableWithMessageHistory` |
-| 08 | 文档加载器 | `PyPDFLoader`、`BaseLoader` |
+| [08](08-文档加载器.md) | 文档加载器 | `PyPDFLoader`、`BaseLoader` |
 | 09 | 文本分割器 | `RecursiveCharacterTextSplitter` |
 | 10 | 向量嵌入 | `HuggingFaceEmbeddings`、余弦相似度 |
 | 11 | 向量存储 | `Chroma`、`similarity_search` |
