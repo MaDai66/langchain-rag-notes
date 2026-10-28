@@ -27,7 +27,7 @@
 | [07](07-记忆.md) | 记忆 | `RunnableWithMessageHistory` |
 | [08](08-文档加载器.md) | 文档加载器 | `PyPDFLoader`、`BaseLoader` |
 | [09](09-文本分割器.md) | 文本分割器 | `RecursiveCharacterTextSplitter`、`chunk_overlap`、`split_documents` |
-| 10 | 向量嵌入 | `HuggingFaceEmbeddings`、余弦相似度 |
+| [10](10-向量嵌入.md) | 向量嵌入 | `HuggingFaceEmbeddings`、余弦相似度、`normalize_embeddings` |
 | 11 | 向量存储 | `Chroma`、`similarity_search` |
 | 12 | 检索器 | Hybrid Search、Reranker |
 | 13 | 工具 | `@tool`、Agent |
