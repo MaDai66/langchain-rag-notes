@@ -29,7 +29,7 @@
 | [09](09-文本分割器.md) | 文本分割器 | `RecursiveCharacterTextSplitter`、`chunk_overlap`、`split_documents` |
 | [10](10-向量嵌入.md) | 向量嵌入 | `HuggingFaceEmbeddings`、余弦相似度、`normalize_embeddings` |
 | [11](11-向量存储.md) | 向量存储 | `Chroma`、`persist_directory`、`hnsw:space`、`similarity_search` |
-| 12 | 检索器 | Hybrid Search、Reranker |
+| [12](12-检索器.md) | 检索器 | Hybrid Search、Reranker |
 | 13 | 工具 | `@tool`、Agent |
 
 > **带链接的是已发布的，其余陆续更新中。**
